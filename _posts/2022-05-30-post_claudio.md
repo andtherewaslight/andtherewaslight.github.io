@@ -76,7 +76,7 @@ $$
 
 which is the differential equation we have to solve for the specific radial index profile of our fiber.
 
-The differential equation shown before can have many solutions. Every solution is called a *mode*, which is represented by the 2D profile of the electromagnetic fields that can propagate through the fiber satifying the boundary conditions. Same happens for example with vibration modes of a string under tension, each vibration harmonic is a mode. In our case, for every $l$ parameter, you may find zero, one, or many possible modes, each one characterized by a different propagation constant $\beta$. Some fibers have a single propagating mode in total, which are called *single-mode* fibers, and some have more than one mode, which are called, what a surprise, *multimode* fibers.
+The differential equation shown before can have many solutions. Every solution is called a *mode*, which is represented by the 2D profile of the electromagnetic fields that can propagate through the fiber satisfying the boundary conditions. Same happens for example with vibration modes of a string under tension, each vibration harmonic is a mode. In our case, for every $l$ parameter, you may find zero, one, or many possible modes, each one characterized by a different propagation constant $\beta$. Some fibers have a single propagating mode in total, which are called *single-mode* fibers, and some have more than one mode, which are called, what a surprise, *multimode* fibers.
 
 
 
@@ -106,7 +106,7 @@ and J and K are the [Bessel functions](https://en.wikipedia.org/wiki/Bessel_func
 
 *Bessel functions of the first kind J and modified second kind K*
 
-Actually, the Bessel functions of the first kind are the solutions of the mechanical vibration of a drum with a circular shape, as shown [here](https://en.wikipedia.org/wiki/Vibrations_of_a_circular_membrane). The only difference with the fiber-optic case is that the decay at the edges is abrupt for the drum case, and is gradual with a modified Bessel function in the fiber-optic case, but in the core are the modes follow the same mathematical function.
+Actually, the Bessel functions of the first kind are the solutions of the mechanical vibration of a drum with a circular shape, as shown [here](https://en.wikipedia.org/wiki/Vibrations_of_a_circular_membrane). The only difference with the fiber-optic case is that the decay at the edges is abrupt for the drum case, and is gradual with a modified Bessel function in the fiber-optic case, but in the core all the modes follow the same mathematical function.
 
 So you may think that we have found the solution, so we can all go home, but unfortunately we are not done yet. We still need to calculate the propagation constant and the actual electric and magnetic field components that satisfy the boundary conditions, and that is not straightforward in the general case. However in realistic fibers, we can make an aproximation which will simplify the task.
 
