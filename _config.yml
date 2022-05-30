@@ -20,15 +20,15 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : https://andtherewaslight.github.io
 baseurl : # does not include hostname
-title   : And there was light
+title   : ...and there was light.
 description: > # this means to ignore newlines until "Language & timezone"
   A website for learning photonics using interactive applets.
 
 
 ## => Language and Timezone
 ##############################
-lang: # the language of your site, default as "en"
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+lang: "en" # the language of your site, default as "en"
+timezone: "CET" # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
