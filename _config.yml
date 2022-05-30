@@ -18,11 +18,11 @@
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : # the base hostname & protocol for your site e.g. https://www.someone.com
+url     : https://andtherewaslight.github.io
 baseurl : # does not include hostname
-title   : Your Site Title
+title   : And there was light
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+  A website for learning photonics using interactive applets.
 
 
 ## => Language and Timezone
@@ -35,11 +35,11 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : Your Name
+  name      : Claudio Otón
   url       :
   avatar    : # path or url of avatar image (square)
-  bio       : I am an amazing person.
-  email     :
+  bio       :
+  email     : claudiooton@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
@@ -55,7 +55,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: user_name/repo_name
+repository: andtherewaslight/andtherewaslight.github.io
 repository_tree: master
 
 
@@ -84,7 +84,7 @@ toc:
 ## => Markdown Enhancements
 ##############################
 ## Mathjax
-mathjax: # false (default), true
+mathjax: true
 mathjax_autoNumber: # false (default), true
 
 ## Mermaid
