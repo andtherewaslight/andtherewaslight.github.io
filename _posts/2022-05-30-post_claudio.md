@@ -151,7 +151,7 @@ Now that we understand the mode cut-offs let's see how LP modes look like. They 
 
 It is worth mentioning that every LP mode can actually represent more than one propagating mode. Let's remember that each mode can have two polarizations (like the vibrations of a string, by the way), which in the low-index-contrast approximation they can be considered as degenerate. But when $\lvert l\rvert$>0, the mode also has two helical polarities, corresponding to $+l$ and $-l$. This means that modes with $l$=0 have a degeneracy of 2 while modes with $\lvert l \rvert$>0 have degeneracy 4. However they are not typically represented as they have the same shape. So when speaking about the number of modes in a fiber, it is always a good idea to clarify if you are talking about distinct LP modes or total number of modes including degenerates.
 
-A useful equation to estimate the total number of modes (including degenerates) as a function of $V$ is given by this equation (demonstrated in [Saleh's book](#Bibliography)):
+A useful equation to estimate the total number of modes (including degenerates) as a function of $V$ is given by this equation (demonstrated in [Saleh's book](#bibliography)):
 
 $$
 N_{modes} \approx \frac{V^2}{2} \text{    ( for $V$ >> 1)}
@@ -208,6 +208,12 @@ You may want to try some typical fiber parameters:
 Click below to launch FIMOC. (Sometimes it may take long for the server to launch, sometimes even more than 20-30 s. so please be patient...)
 
  [Open FIMOC](https://fimoc.herokuapp.com/){:target="_blank"}
+
+
+
+## Bibliography
+
+- "Fundamentals of Photonics" by Saleh and Teich (Ed. Wiley). This was my main source for making this software. In this book you will find more details and further references.
 
 
 ---
