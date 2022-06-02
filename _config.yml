@@ -125,7 +125,7 @@ comments:
 
   ## Disqus
   disqus:
-    shortname: "claudio_oton" # the Disqus shortname for the site
+    shortname: "andtherewaslight-github-io" # the Disqus shortname for the site
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
