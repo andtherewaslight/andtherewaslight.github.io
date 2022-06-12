@@ -4,7 +4,7 @@ title: "Multilayer calculator with transfer-matrix method"
 key: multilayer
 mathjax: true
 cover: /assets/images/multilayer/screenshot_multilayer.png
-
+permalink: /multilayer/
 
 ---
 
