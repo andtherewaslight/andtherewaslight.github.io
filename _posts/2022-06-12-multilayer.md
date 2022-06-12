@@ -8,10 +8,7 @@ cover: /assets/images/multilayer/screenshot_multilayer.png
 
 ---
 
-
-# Propagation in multilayered media with the transfer-matrix method
-
-Light propagating in multilayered media is not difficult to simulate by using the transfer matrix method. This method assigns matrices to layers and/or interfaces and calculates electromagnetic propagation by matrix-multiplying from the first element to the last. Actually, there are two possible transfer-matrix methods to solve a multilayer problem. In one method, which the one used used in [Born & Wolf](#Bibliography) famous book, the vector propagated is the total electric and magnetic fields. Using the continuity equations for electromagnetic waves, one can assign just one matrix to each layer, and the job is done. Another method, which is more intutive, propagates the magnitudes of the electric fields propagating to the left and to the right. It is the method used, for example, in [Yeh's book](#Bibliography). This way, apart from the matrix required for the propagation through every layer, every interface also requires a matrix which contains the Fresnel coefficients of reflection and transmission. The main disadvantage of this method is that it requires two matrices per layer. However, this method, being more intuitive as the scattering and propagation matrix are distinct, makes it more convenient to generalize the problem to other situations, therefore this is the one we will apply.
+Light propagating in multilayered media is not difficult to simulate by using the transfer matrix method. This method assigns matrices to layers and/or interfaces and calculates electromagnetic propagation by matrix-multiplying from the first element to the last. Actually, there are two possible transfer-matrix methods to solve a multilayer problem. In one method, which the one used used in [Born & Wolf](#bibliography) famous book, the vector propagated is the total electric and magnetic fields. Using the continuity equations for electromagnetic waves, one can assign just one matrix to each layer, and the job is done. Another method, which is more intutive, propagates the magnitudes of the electric fields propagating to the left and to the right. It is the method used, for example, in [Yeh's book](#bibliography). This way, apart from the matrix required for the propagation through every layer, every interface also requires a matrix which contains the Fresnel coefficients of reflection and transmission. The main disadvantage of this method is that it requires two matrices per layer. However, this method, being more intuitive as the scattering and propagation matrix are distinct, makes it more convenient to generalize the problem to other situations, therefore this is the one we will apply.
 
 Let us first assume a plane. We will consider the electric field as a complex numbers whose phase tells us about the phase of the wave. Of course, the real electric field of the wave is only the real part of this magnitude, but considering the complex number simplifies the calculations as trigonometric functions become exponentials, which are easier to handle. Assuming that the plane wave wave propagates in the positive $z$ direction through a medium with refractive index $n$, at an angle $\theta$ with respect to the $z$ axis, the magnitude of the electric field can be described as:
 
@@ -41,9 +38,12 @@ We can use matrices to calculate waves along $z$ propagating simultaneously in b
 $$
 E^{+}(d) = E^{+}(0)e^{ik_zd}
 $$
+
+
 $$
 E^{-}(d) = E^{-}(0)e^{-ik_zd}
 $$
+
 or in matrix form:
 
 $$
@@ -103,7 +103,9 @@ Now let us calculate the matrix to be inserted at every interface. Let us assume
 ![Snell's law sign convention](/assets/images/multilayer/snell_400px.png)
 
 
-where we show both TE and TM polarizations. The Fresnel coefficients allow us to calculate the reflection and refraction ratios of the electric fields for each polarization. These equations can be deduced from continuity conditions of electromagnetic fields in interfaces, and are shown below:
+where we show both polarizations, which we call TE and TM. TE (transverse-electric) polarization, also known as $s$-polarization, refers to the case where the *electric* field is parallel to the surface, for any incidence angle. That's why in the figure is represented by a vector pointing perpendicularly to the screen. TM (transverse-magnetic) polarization, also known as $p$-polarization, refers to the case where the *magnetic* field of the wave is parallel to the interface. This means that the electric field is not parallel for incidence angles greater than zero, and it changes direction upon reflection or refraction. It is also worth noting that for normal incidence, even though TE and TM converge to the same case, there is a sign change in the reflectivity coefficient between both cases, as the vector points to the opposite direction.
+
+Let us now calculate the reflection and transmission coefficients. For this, we will use the [Fresnel equations](https://en.wikipedia.org/wiki/Fresnel_equations), which can be deduced from continuity conditions of electromagnetic fields in interfaces, and are shown below:
 
 $$
 r_{12}^{(TE)}=\frac{n_{1}\cos\theta _{1}-n_{2}\cos\theta _{2}}{n_{1}\cos\theta _{1}+n_{2}\cos\theta _{2}}\\
@@ -112,7 +114,7 @@ r_{12}^{(TM)}=\frac{n_{2}\cos\theta _{1}-n_{1}\cos\theta _{2}}{n_{2}\cos\theta _
 t_{12}^{(TM)}=\frac{2n_{1}\cos\theta _{1}}{n_{2}\cos\theta _{1}+n_{1}\cos\theta _{2}}\\
 $$
 
-where $r_{12}^{(TE)}$ and $t_{12}^{(TE)}$ are the reflection and transmission complex coefficients from medium 1 to medium 2 for TE polarization, also known as $s$-polarization, which corresponds to the electrical field parallel to the interface. On the other hand, $r_{12}^{(TM)}$ and $r_{12}^{(TM)}$ are the coefficients for the TM polarization or $p$-polarization. The angles $\theta_1$ and $\theta_2$ are the angles of propagation in media 1 and 2 respectively with respect to normal of the interface; these are related by Snell's law:
+where $r_{12}^{(TE)}$ and $t_{12}^{(TE)}$ are the reflection and transmission complex coefficients from medium 1 to medium 2 for TE polarization. On the other hand, $r_{12}^{(TM)}$ and $r_{12}^{(TM)}$ are the coefficients for the TM polarization. The angles $\theta_1$ and $\theta_2$ are the angles of propagation in media 1 and 2 respectively with respect to normal of the interface; these are related by Snell's law:
 
 $$
 n_1 \sin \theta_1 = n_2 \sin \theta_2
@@ -337,7 +339,7 @@ We encourage the user to play with the parameters to see the effects of changing
 
 - What happens to the spectrum when the incident angle changes?
 
-<iframe src="https://fimoc.herokuapp.com/" height="700" width="100%" style="border:1px solid gray;"></iframe>
+<iframe src="https://andtherewaslight-multilayer.herokuapp.com/" height="1000" width="100%" style="border:1px solid gray;"></iframe>
 
 If your browser does not support the iframe showing the app, you may try to open the app on a new window in [this link](https://andtherewaslight-multilayer.herokuapp.com/).
 
