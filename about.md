@@ -10,4 +10,4 @@ I am Claudio Oton, I am a researcher at [Scuola Superiore Sant'Anna](https://www
 
 ## Acknowledgments
 
-Special thanks to Marco Vannucci for introducing me to Jupyter Notebooks, which were used for making the software, and to [Ezequiel Castaño](https://elc.github.io/) for his [tutorial](https://elc.github.io/posts/embed-interactive-notebooks/) to make interactive online programs from Jupyter notebooks, and his personal help with this project.
+Special thanks to Marco Vannucci for introducing me to Jupyter Notebooks, which were used for making the software, and to [Ezequiel Castaño](https://elc.github.io/), who showed me how to make interactive online programs from Jupyter notebooks.
