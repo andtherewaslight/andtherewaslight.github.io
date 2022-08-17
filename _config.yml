@@ -183,6 +183,8 @@ analytics:
 ## => Build
 ##############################
 markdown    : kramdown
+kramdown:               #
+  math_engine: mathjax  # added by Claudio from https://varunagrawal.github.io/2018/03/27/latex-jekyll/
 highlighter : rouge
 permalink   : date
 
