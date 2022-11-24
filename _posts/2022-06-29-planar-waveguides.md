@@ -90,7 +90,7 @@ Some interesting cases to try:
 
 
 
-If your browser does not support the iframe showing the app, you may try to open the app on a new window in [this link](https://andtherewaslight-waveguides.herokuapp.com/).
+If your browser does not support the iframe showing the app, you may try to open the app on a new window in [this link](https://mybinder.org/v2/gh/andtherewaslight/planar-waveguides/main?urlpath=%2Fvoila%2Frender%2Fplanar_waveguides_heroku.ipynb).
 
 
 ---
