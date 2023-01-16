@@ -86,11 +86,11 @@ Some interesting cases to try:
 
 - This software can also be used to calculate laterally-guided 2D modes in cases where the effective index approximation can be applied. This approximation consists of first solving the multilayer problem vertically in the core region and in the cladding region, calculate the effective indices in each case, and then use those effective indices are refractive indices of a new structure in the horizontal direction. Under certain conditions of index-contrast of etch depth, this provides a good approximation of the 2D mode.
 
-<iframe src="https://andtherewaslight-waveguides.herokuapp.com/" height="1000" width="100%" style="border:1px solid gray;"></iframe>
+Press the button below to open the applet (the server may take up to 1 minute to load).
 
+<a class="button button--primary button--pill" href="https://mybinder.org/v2/gh/andtherewaslight/planar-waveguides/main?urlpath=%2Fvoila%2Frender%2Fplanar_waveguides_heroku.ipynb" target="_blank">OPEN APPLET IN NEW TAB</a>
 
-
-If your browser does not support the iframe showing the app, you may try to open the app on a new window in [this link](https://mybinder.org/v2/gh/andtherewaslight/planar-waveguides/main?urlpath=%2Fvoila%2Frender%2Fplanar_waveguides_heroku.ipynb).
+<iframe src="https://mybinder.org/v2/gh/andtherewaslight/planar-waveguides/main?urlpath=%2Fvoila%2Frender%2Fplanar_waveguides_heroku.ipynb" height="0" width="100%" style="border:1px solid gray;"></iframe>
 
 
 ---

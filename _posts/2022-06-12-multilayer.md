@@ -339,9 +339,10 @@ We encourage the user to play with the parameters to see the effects of changing
 
 - What happens to the spectrum when the incident angle changes?
 
-<iframe src="https://andtherewaslight-multilayer.herokuapp.com/" height="1000" width="100%" style="border:1px solid gray;"></iframe>
+Press the button below to open the applet (the server may take up to 1 minute to load).
 
-If your browser does not support the iframe showing the app, you may try to open the app on a new window in [this link](https://mybinder.org/v2/gh/andtherewaslight/multilayer/main?urlpath=%2Fvoila%2Frender%2Fmultilayer_heroku.ipynb).
+<a class="button button--primary button--pill" href="https://mybinder.org/v2/gh/andtherewaslight/multilayer/main?urlpath=%2Fvoila%2Frender%2Fmultilayer_heroku.ipynb" target="_blank">OPEN APPLET IN NEW TAB</a>
+
 
 ## Bibliography
 
