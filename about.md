@@ -5,7 +5,7 @@ key: page-about
 ---
 
 
-I am Claudio Oton, I am a researcher at [Scuola Superiore Sant'Anna](https://www.santannapisa.it) in Pisa, Italy, where I work doing research on fiber-optics. Please let me know if there is any issue in the software, a mistake in the text, or any other suggestion you may have. You may contact me at c.oton{at}santannapisa.it
+I am Claudio Oton, I work in [Scuola Superiore Sant'Anna](https://www.santannapisa.it) in Pisa, Italy, where I am Associate Professor doing research on fiber-optics. Please let me know if there is any issue in the software, a mistake in the text, or any other suggestion you may have. You may contact me at c.oton{at}santannapisa.it
 
 
 ## Acknowledgments
