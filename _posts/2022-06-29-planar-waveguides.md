@@ -90,7 +90,7 @@ Press the button below to open the applet (the server may take up to 1 minute to
 
 <a class="button button--primary button--pill" href="https://mybinder.org/v2/gh/andtherewaslight/planar-waveguides/main?urlpath=%2Fvoila%2Frender%2Fplanar_waveguides_heroku.ipynb" target="_blank">OPEN APPLET IN NEW TAB</a>
 
-<iframe src="https://mybinder.org/v2/gh/andtherewaslight/planar-waveguides/main?urlpath=%2Fvoila%2Frender%2Fplanar_waveguides_heroku.ipynb" height="0" width="100%" style="border:1px solid gray;"></iframe>
+<iframe src="https://mybinder.org/v2/gh/andtherewaslight/planar-waveguides/main?urlpath=%2Fvoila%2Frender%2Fplanar_waveguides_heroku.ipynb" height="1" width="100%" style="border:1px solid gray;"></iframe>
 
 
 ---

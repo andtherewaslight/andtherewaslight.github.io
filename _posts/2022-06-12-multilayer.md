@@ -107,12 +107,13 @@ where we show both polarizations, which we call TE and TM. TE (transverse-electr
 
 Let us now calculate the reflection and transmission coefficients. For this, we will use the [Fresnel equations](https://en.wikipedia.org/wiki/Fresnel_equations), which can be deduced from continuity conditions of electromagnetic fields in interfaces, and are shown below:
 
-$$
-r_{12}^{(TE)}=\frac{n_{1}\cos\theta _{1}-n_{2}\cos\theta _{2}}{n_{1}\cos\theta _{1}+n_{2}\cos\theta _{2}}\\
-t_{12}^{(TE)}=\frac{2n_{1}\cos\theta _{1}}{n_{1}\cos\theta _{1}+n_{2}\cos\theta _{2}}\\
-r_{12}^{(TM)}=\frac{n_{2}\cos\theta _{1}-n_{1}\cos\theta _{2}}{n_{2}\cos\theta _{1}+n_{1}\cos\theta _{2}}\\
-t_{12}^{(TM)}=\frac{2n_{1}\cos\theta _{1}}{n_{2}\cos\theta _{1}+n_{1}\cos\theta _{2}}\\
-$$
+$$r_{12}^{(TE)}=\frac{n_{1}\cos\theta _{1}-n_{2}\cos\theta _{2}}{n_{1}\cos\theta _{1}+n_{2}\cos\theta _{2}}$$
+
+$$t_{12}^{(TE)}=\frac{2n_{1}\cos\theta _{1}}{n_{1}\cos\theta _{1}+n_{2}\cos\theta _{2}}$$
+
+$$r_{12}^{(TM)}=\frac{n_{2}\cos\theta _{1}-n_{1}\cos\theta _{2}}{n_{2}\cos\theta _{1}+n_{1}\cos\theta _{2}}$$
+
+$$t_{12}^{(TM)}=\frac{2n_{1}\cos\theta _{1}}{n_{2}\cos\theta _{1}+n_{1}\cos\theta _{2}}$$
 
 where $r_{12}^{(TE)}$ and $t_{12}^{(TE)}$ are the reflection and transmission complex coefficients from medium 1 to medium 2 for TE polarization. On the other hand, $r_{12}^{(TM)}$ and $r_{12}^{(TM)}$ are the coefficients for the TM polarization. The angles $\theta_1$ and $\theta_2$ are the angles of propagation in media 1 and 2 respectively with respect to normal of the interface; these are related by Snell's law:
 
@@ -123,14 +124,20 @@ $$
 The Fresnel coefficients can be simplified defining a new variable called $\gamma$:
 
 $$
-r_{12}=\frac{\gamma_1-\gamma_2}{\gamma_1+\gamma_2}\\
+r_{12}=\frac{\gamma_1-\gamma_2}{\gamma_1+\gamma_2}
+$$
+
+$$
 t_{12}=\frac{2\gamma_1}{\gamma_1+\gamma_2}\\
 $$
 
 where the definition of $\gamma$ depends on the polarization. For the $i$-th layer with refractive index $n_i$ and angle $\theta_i$:
 
 $$
-\gamma_i^{(TE)}=n_i\cos \theta_i\\
+\gamma_i^{(TE)}=n_i\cos \theta_i
+$$
+
+$$
 \gamma_i^{(TM)}=\frac{cos \theta_i}{n_i}\\
 $$
 
@@ -175,7 +182,10 @@ $$
 This can be simplified by applying the symmetry relations of the Fresnel coefficients (obtained when exchanging medium 1 and 2), which are:
 
 $$
-r_{12}=-r_{21}\\
+r_{12}=-r_{21}
+$$
+
+$$
 t_{12}t_{21}-r_{12}r_{21}=1
 $$
 
@@ -282,14 +292,20 @@ $$
 and we then extract the ratios:
 
 $$
-r = \frac{E_{0}^{-}}{E_{0}^{+}} = \frac{t_{21}}{t_{11}}\\
+r = \frac{E_{0}^{-}}{E_{0}^{+}} = \frac{t_{21}}{t_{11}}
+$$
+
+$$
 t = \frac{E_{N}^{+}}{E_{0}^{+}} = \frac{1}{t_{11}}
 $$
 
 These coefficients are the complex terms; to extract the energy coefficients (reflectance and transmittance) we can apply these equations, obtained from the ratios of the Poynting vectors.
 
 $$
-R = |r|^2\\
+R = |r|^2
+$$
+
+$$
 T = \frac{Re(n_N\cos\theta_N)}{Re(n_0\cos\theta_0)}|t|^2
 $$
 
