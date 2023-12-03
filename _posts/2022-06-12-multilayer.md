@@ -358,7 +358,8 @@ We encourage the user to play with the parameters to see the effects of changing
 Press the button below to open the applet (the server may take up to 1 minute to load).
 
 
-<a class="button button--primary button--pill" href="https://andtherewaslight-multilayer-f13895f82046.herokuapp.com/" target="_blank">OPEN APPLET IN NEW TAB</a>
+<iframe src="https://andtherewaslight-multilayer-f13895f82046.herokuapp.com/" height="1000px" width="100%" frameBorder="0"></iframe>
+<!--<a class="button button--primary button--pill" href="https://andtherewaslight-multilayer-f13895f82046.herokuapp.com/" target="_blank">OPEN APPLET IN NEW TAB</a>-->
 <!--<a class="button button--primary button--pill" href="https://mybinder.org/v2/gh/andtherewaslight/multilayer/main?urlpath=%2Fvoila%2Frender%2Fmultilayer_heroku.ipynb" target="_blank">OPEN APPLET IN NEW TAB</a>-->
 
 
