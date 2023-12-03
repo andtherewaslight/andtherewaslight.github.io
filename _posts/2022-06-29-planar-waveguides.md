@@ -88,9 +88,9 @@ Some interesting cases to try:
 
 Press the button below to open the applet (the server may take up to 1 minute to load).
 
-<a class="button button--primary button--pill" href="https://mybinder.org/v2/gh/andtherewaslight/planar-waveguides/main?urlpath=%2Fvoila%2Frender%2Fplanar_waveguides_heroku.ipynb" target="_blank">OPEN APPLET IN NEW TAB</a>
+<!--<a class="button button--primary button--pill" href="https://andtherewaslight-pl-waveguides-b60ae427d299.herokuapp.com/" target="_blank">OPEN APPLET IN NEW TAB</a>-->
 
-<iframe src="https://mybinder.org/v2/gh/andtherewaslight/planar-waveguides/main?urlpath=%2Fvoila%2Frender%2Fplanar_waveguides_heroku.ipynb" height="1" width="100%" style="border:1px solid gray;"></iframe>
+<iframe src="https://andtherewaslight-pl-waveguides-b60ae427d299.herokuapp.com/" height="800px" width="100%"></iframe>
 
 
 ---
