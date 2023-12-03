@@ -90,7 +90,7 @@ Press the button below to open the applet (the server may take up to 1 minute to
 
 <!--<a class="button button--primary button--pill" href="https://andtherewaslight-pl-waveguides-b60ae427d299.herokuapp.com/" target="_blank">OPEN APPLET IN NEW TAB</a>-->
 
-<iframe src="https://andtherewaslight-pl-waveguides-b60ae427d299.herokuapp.com/" height="800px" width="100%"></iframe>
+<iframe src="https://andtherewaslight-pl-waveguides-b60ae427d299.herokuapp.com/" height="1000px" width="100%" frameBorder="0"></iframe>
 
 
 ---
