@@ -355,7 +355,8 @@ We encourage the user to play with the parameters to see the effects of changing
 
 - What happens to the spectrum when the incident angle changes?
 
-Press the button below to open the applet (the server may take up to 1 minute to load).
+The applet should appear below (if it doesn't please [contact me](https://andtherewaslight.github.io/about.html)).
+
 
 
 <iframe src="https://andtherewaslight-multilayer-f13895f82046.herokuapp.com/" height="1000px" width="100%" frameBorder="0"></iframe>
