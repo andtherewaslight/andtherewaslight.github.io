@@ -86,7 +86,8 @@ Some interesting cases to try:
 
 - This software can also be used to calculate laterally-guided 2D modes in cases where the effective index approximation can be applied. This approximation consists of first solving the multilayer problem vertically in the core region and in the cladding region, calculate the effective indices in each case, and then use those effective indices are refractive indices of a new structure in the horizontal direction. Under certain conditions of index-contrast of etch depth, this provides a good approximation of the 2D mode.
 
-Press the button below to open the applet (the server may take up to 1 minute to load).
+The applet should appear below (if it doesn't please contact me).
+
 
 <!--<a class="button button--primary button--pill" href="https://andtherewaslight-pl-waveguides-b60ae427d299.herokuapp.com/" target="_blank">OPEN APPLET IN NEW TAB</a>-->
 
